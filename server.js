@@ -12,8 +12,8 @@ app.use(express.static('public'));
 // const axios = require('axios')
 const Binance = require('node-binance-api');
 const binance = new Binance().options({
-  APIKEY: 'IfOCguKO2GEzRsrhG0VQz3y2ztrS45r4KVlEr33sY0GmSsQKxk3KqL1kuXVHjP6A',
-  APISECRET: 'U8BJqtE0fr8uIPkuPTgjzBZBNW1dcIslz9JBCkVcN1a45EWCmwEtvzBrTrbjfMtQ'
+  APIKEY: 'your api key',
+  APISECRET: 'your api secret'
 });
 
 
